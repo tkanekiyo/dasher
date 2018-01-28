@@ -1,0 +1,39 @@
+{"buttons":[
+  {
+    "name": "Room Light On (Ariel)",
+    "address": "b4:7c:9c:f5:b7:f3",
+    "interface": "wlan0",
+    "protocol": "udp",
+    "url": "https://home-project-931c1.firebaseio.com/googlehome/word.json",
+    "method": "PUT",
+    "headers": {"Content-Type": "application/json"},
+    "json": true,
+    "body": "light on"
+  },
+  {
+    "name": "Room Light Off (Wilkinson)",
+    "address": "fc:a6:67:06:f3:fa",
+    "interface": "wlan0",
+    "protocol": "udp",
+    "url": "https://home-project-931c1.firebaseio.com/googlehome/word.json",
+    "method": "PUT",
+    "headers": {"Content-Type": "application/json"},
+    "json": true,
+    "body": "light off"
+  },
+  {
+    "name": "SAPPORO Black Label",
+    "address": "00:fc:8b:8e:e4:80",
+    "debug": true
+  },
+  {
+    "name": "evian",
+    "address": "b4:7c:9c:11:33:1b",
+    "debug": true
+  },
+  {
+    "name": "Premium MALTS",
+    "address": "fc:a6:67:55:63:86",
+    "debug": true
+  }
+]}
