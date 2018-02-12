@@ -7,7 +7,7 @@
     "method": "PUT",
     "headers": {"Content-Type": "application/json"},
     "json": true,
-    "body": "light on"
+    "body": "room light on"
   },
   {
     "name": "Room Light Off (Wilkinson)",
@@ -17,7 +17,7 @@
     "method": "PUT",
     "headers": {"Content-Type": "application/json"},
     "json": true,
-    "body": "light off"
+    "body": "room light off"
   },
   {
     "name": "SAPPORO Black Label",
